@@ -1,0 +1,19 @@
+.search-container {
+   gap: 1rem;
+}
+
+.add-contact {
+    width: 30px;
+}
+
+.contacts-list {
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: $clr2;
+    color: white;
+
+    .list-group-item {
+        background-color: $clr2;
+        color: white;
+    }
+}

@@ -1,0 +1,23 @@
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Basics
+@import "basics/typography";
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/modals";
+@import "basics/animations";
+
+// CMPS
+
+@import './cmps/Header';
+
+// PAGES
+@import './pages/Home';
+@import './pages/Contacts';
+@import './pages/ContactDetails';
+@import './pages/EditContact';
